@@ -5,6 +5,7 @@ import Menu from "./Components/Menu/Menu";
 import Footer from "./Components/Footer/Footer";
 import DeafultPage from "./Components/DefaultPage/DefaultPage";
 import Post from "./pagess/Post/Post";
+import Error404 from "./pagess/Error404/Error404";
 
 export default function AppRoutes() {
   return (
@@ -18,7 +19,7 @@ export default function AppRoutes() {
             <Route path="posts/:id" element={<Post/>}/>
           </Route>
 
-          <Route path="*" element={<div>Página não encontrada</div>}></Route>
+          <Route path="*" element={<Error404/>}></Route>
       </Routes>
 
       <Footer/> 

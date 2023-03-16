@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import MainButton from '../MainButton/MainButton';
 import styles from './Post.module.css';
 
 export default function PostCard({ post }){
@@ -14,7 +15,7 @@ export default function PostCard({ post }){
 
                 <h2 className={styles.title}>{post.titulo}</h2>
 
-                <button className={styles.readyButton}>Ler</button>
+                <MainButton>Ler</MainButton>
             </div>
         </Link>
     )
