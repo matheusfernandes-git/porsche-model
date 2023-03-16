@@ -7,7 +7,6 @@ export default function AppRoutes() {
   return (
     <BrowserRouter>
       <Menu/>    
-
       <Routes>
           <Route path="/" element={<HomePage/>}></Route> 
           <Route path="/sobremim" element={<AboutMe/>}/>
