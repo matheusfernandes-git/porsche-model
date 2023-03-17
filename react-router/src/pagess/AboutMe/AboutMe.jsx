@@ -38,7 +38,6 @@ export default function AboutMe(){
             <p className={styles.paragraph}>
                 Desde então, tem sido aprenas aprendizados atrás de aprendizados. A Alura é uma escola não só para seus alunos e alunas, mas também para os colaboradores e colaboradoras. Hoje sou muito feliz de ter a oportunidade de trazer esses conteúdos ricos e encantadores para você. Espero que aprenda bastante!
             </p>
-            
         </TemplatePost>
     )
 }
