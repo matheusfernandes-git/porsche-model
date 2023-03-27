@@ -1,5 +1,4 @@
 import styles from './Error404.module.css';
-import error404 from '../../assets/erro_404.png';
 import MainButton from '../../Components/MainButton/MainButton';
 import { useNavigate } from 'react-router-dom';
 
@@ -33,7 +32,7 @@ export default function Error404(){
 
             <img 
                 className={styles.dogPhoto}
-                src={error404} 
+                src={<></>} 
                 alt="Cachorro de óculos"
             />
         </div>

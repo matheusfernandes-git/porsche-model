@@ -1,12 +1,10 @@
 import TemplatePost from "../../Components/TemplatePost/TemplatePost";
-import coverPhoto from '../../assets/sobre_mim_capa.png'
 import styles from './AboutMe.module.css';
-import aboutMePhoto from '../../assets/sobre_mim_foto.png'
 
 export default function AboutMe(){
     return(
         <TemplatePost 
-            coverPhoto={coverPhoto}
+            coverPhoto={<></>}
             title='About me'>
 
             <h3 className={styles.caption}>
@@ -15,7 +13,7 @@ export default function AboutMe(){
 
             <img 
                 className={styles.AboutMePhoto}
-                src={aboutMePhoto}
+                src={<></>}
                 alt="Foto"
             />
 

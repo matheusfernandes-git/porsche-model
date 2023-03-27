@@ -13,7 +13,7 @@ export default function PostCard({ post }){
                     alt="Imagem de capa"
                     >
                 </img>
-
+                                                   
                 <h2 className={styles.title}>{post.titulo}</h2>
 
                 <MainButton>Ler</MainButton>
