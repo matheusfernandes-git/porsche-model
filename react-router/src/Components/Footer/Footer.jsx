@@ -1,12 +1,10 @@
 import styles from './Footer.module.css';
-import { ReactComponent as MarcaRegistrada } from '../../assets/marca_registrada.svg';
+import imagem from '../../assets/simbolo2.png'
 
 export default function Footer(){
     return(
         <footer className={styles.footer}>
-            <MarcaRegistrada/>
-
-            Desenvolvido por Alura.
+            <img className={styles.img} src={imagem} alt=""/>
         </footer>
     )
 }

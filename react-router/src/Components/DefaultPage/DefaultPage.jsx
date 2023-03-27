@@ -5,7 +5,6 @@ export default function DeafultPage(){
     return(
         <main>
             <Banner/>
-
             <Outlet />
         </main>
     )

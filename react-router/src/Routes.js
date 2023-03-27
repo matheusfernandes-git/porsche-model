@@ -17,7 +17,7 @@ export default function AppRoutes() {
       <Routes>
           <Route path='/' element={<DeafultPage/>}>
             <Route index element={<HomePage/>}/>
-            <Route path="/sobremim" element={<AboutMe/>}/>
+            <Route path="/sobre" element={<AboutMe/>}/>
           </Route>
 
           <Route path="posts/:id*" element={<Post/>}/>

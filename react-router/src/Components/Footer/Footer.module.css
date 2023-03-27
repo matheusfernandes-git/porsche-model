@@ -1,9 +1,13 @@
 .footer {
-    background-color: var(--azul-escuro);
-    color: var(--branco);
+    background-color: var(--branco);
+    color: var(--preto);
     padding: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: .5rem;
+}
+
+.footer .img{
+    width: 20%;
 }
