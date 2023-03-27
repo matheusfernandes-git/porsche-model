@@ -15,6 +15,9 @@ export default function Menu(){
                    <MenuLink to='/'>
                         Home
                    </MenuLink>
+                   <MenuLink to='/models'>
+                        Models
+                   </MenuLink>
                    <MenuLink to='/sobre'>
                         About
                    </MenuLink>
