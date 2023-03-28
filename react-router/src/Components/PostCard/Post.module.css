@@ -5,7 +5,6 @@
     padding-bottom: 1.5rem;
     transition: transform .2s;
     width: 800px;
-
 }
 
 .post:hover {
@@ -16,12 +15,13 @@
     width: 100%;
 }
 
-.tittle {
+.title {
     font-family: var(--fonte-secundaria);
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     color: var(--azul-escuro);
     line-height: 1.75rem;
     margin: 1.5rem 0 1.75rem;
+    text-decoration: underline #ffffff;
 }
 
 @media (max-width: 1100px) {

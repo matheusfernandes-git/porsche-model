@@ -7,22 +7,19 @@ import img3 from '../../assets/carousel3.png';
 
 
 export default function Banner() {
-
   return (
     <header className={styles.header}>
-      <div>
-        <Carousel>
-          <Carousel.Item>
-            <img src={img} alt="" />
+      <Carousel>
+          <Carousel.Item >
+            <div style={{ backgroundImage: `url(${img})` }}></div>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={img2} alt="img1" />
+            <div style={{ backgroundImage: `url(${img2})` }}></div>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={img3} alt="img1" />
+            <div style={{ backgroundImage: `url(${img3})` }}></div>
           </Carousel.Item>
         </Carousel>
-      </div>
     </header>
   );
 }
