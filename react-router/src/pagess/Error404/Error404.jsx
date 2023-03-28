@@ -1,8 +1,9 @@
 import styles from './Error404.module.css';
 import MainButton from '../../Components/MainButton/MainButton';
 import { useNavigate } from 'react-router-dom';
+import img from '../../assets/simbolo.png'
 
-export default function Error404(){
+export default function Error404({ color }){
     const navigation = useNavigate();
 
     return(
@@ -11,7 +12,7 @@ export default function Error404(){
             <span className={styles.text404}>404</span>
 
             <h1 className={styles.title}>
-                Ops! Page not found
+                Page not found
             </h1>
 
             <p className={styles.paragraph}>
@@ -25,16 +26,10 @@ export default function Error404(){
             <div className={styles.ContainerButton}
                 onClick={() => navigation(-1)}
             >
-                <MainButton size='lg'>
+                <MainButton size='lg' color='color'>
                     Voltar
                 </MainButton>
             </div>
-
-            <img 
-                className={styles.dogPhoto}
-                src={<></>} 
-                alt="Cachorro de óculos"
-            />
         </div>
 
         <div className={styles.blankSpace}></div>

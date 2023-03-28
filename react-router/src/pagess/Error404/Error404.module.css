@@ -1,14 +1,14 @@
 .contentContainer {
     position: relative;
     text-align: center;
-    background-color: var(--azul-escuro);
+    background-color: var(--light-black);
     color: var(--branco);
     padding: 0 1.5rem 6.5rem;
 }
 
 .text404 {
     display: block;
-    color: var(--azul-medio);
+    color: #be2e2e;
     font-family: var(--fonte-secundaria);
     font-size: 6rem;
     font-weight: 700;
@@ -32,10 +32,8 @@
     margin-left: 30vw;
 }
 
-.dogPhoto {
-    position: absolute;
-    height: 25vw;
-    bottom: calc(-25vw * 0.5);
+.button__error{
+    background-color: var(--branco);
 }
 
 .blankSpace {

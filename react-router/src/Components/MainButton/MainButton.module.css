@@ -1,12 +1,11 @@
 .mainButton {
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
     line-height: 1.125rem;
-    background-color: var(--azul-medio);
+    background-color: var(--light-black);
     color: var(--branco);
-    border: 3px solid var(--azul-medio);
     cursor: pointer;
     transition: 0.2s;
     width: 150px;
@@ -18,7 +17,12 @@
     line-height: 1.125rem;
 }
 
+.mainButton.color{
+    background-color: #be2e2e;
+}
+
 .mainButton:hover {
-    border: 3px solid var(--azul-escuro);
+    background-color: #D5001C;
+    border: none;
 }
 

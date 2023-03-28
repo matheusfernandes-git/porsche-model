@@ -39,7 +39,7 @@ export default function Post(){
                     </div>
 
                     <h2 className={styles.recommendedPostTitle}>
-                        Outros posts que você pode gostar
+                        Outros modelos que você pode gostar
                     </h2>
 
                     <ul className={styles.recommendedPost}>

@@ -7,11 +7,12 @@
 :root {
   --azul-escuro: #041833;
   --azul-medio: #1875E8;
+  --light-black: #191F22;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
   --fonte-principal: 'Raleway', sans-serif;
-  --fonte-secundaria: 'Playfair Display', sans-serif;
+  --fonte-secundaria: 'DM Sans', sans-serif;
 
   font-family: var(--fonte-principal);
 }
