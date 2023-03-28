@@ -1,17 +1,18 @@
 .post {
     text-align: center;
-    width: 70%;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
     border-radius: 0px 0px 10px 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
+    width: 800px;
+
 }
 
 .post:hover {
     transform: translate(0, -1rem);
 }
 
-.cover {
+.post img{
     width: 100%;
 }
 
@@ -25,8 +26,9 @@
 
 @media (max-width: 1100px) {
     .post {
-        width: 336px;
+        width: 410px;
     }
+
     .tittle {
         font-weight: 600;
     }

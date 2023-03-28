@@ -1,6 +1,6 @@
 .mainButton {
     display: inline-block;
-    border-radius: 24px;
+    border-radius: 5px;
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
     line-height: 1.125rem;
@@ -8,7 +8,8 @@
     color: var(--branco);
     border: 3px solid var(--azul-medio);
     cursor: pointer;
-    transition: 0.2s
+    transition: 0.2s;
+    width: 150px;
 }
 
 .mainButton.lg{
