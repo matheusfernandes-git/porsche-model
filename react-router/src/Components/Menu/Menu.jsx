@@ -2,19 +2,16 @@ import styles from "./Menu.module.css";
 import MenuLink from "../MenuLink/MenuLink";
 import porsche from "../../assets/simbolo.png";
 import { FaBars } from "react-icons/fa";
+import SideBar from '../SideBar/SideBar'
 import { FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 export default function Menu() {
-//   const [sideBar, setSideBar] = useState(false);
+  const [sideBar, setSideBar] = useState(false);
 
-//   const showSideBar = () => {
-//     setSideBar(!sideBar);
-//   }
-
-//   const closeSideBar = () => {
-//     active(false);
-//   };
+  const showSideBar = () => {
+    setSideBar(!sideBar);
+  }
 
   return (
     <header>
@@ -29,12 +26,11 @@ export default function Menu() {
           <MenuLink to="/sobre">About</MenuLink>
         </div>
 
-        {/* <div>
+        <div>
           <FaBars onClick={showSideBar} />
           {sideBar && <SideBar active={setSideBar} />}
         </div>
 
-        <FaTimes onClick={closeSideBar} /> */}
       </nav>
     </header>
   );
