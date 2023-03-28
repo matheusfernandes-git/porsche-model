@@ -1,4 +1,4 @@
-import AboutMe from "./pagess/AboutMe/AboutMe";
+import About from "./pagess/About/About";
 import HomePage from "./pagess/homePage/HomePage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Menu from "./Components/Menu/Menu";
@@ -17,7 +17,7 @@ export default function AppRoutes() {
       <Routes>
           <Route path='/' element={<DeafultPage/>}>
             <Route index element={<HomePage/>}/>
-            <Route path="/sobre" element={<AboutMe/>}/>
+            <Route path="/sobre" element={<About/>}/>
           </Route>
 
           <Route path="posts/:id*" element={<Post/>}/>

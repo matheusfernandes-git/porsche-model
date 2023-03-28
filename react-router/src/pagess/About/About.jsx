@@ -1,8 +1,8 @@
 import TemplatePost from "../../Components/TemplatePost/TemplatePost";
-import styles from './AboutMe.module.css';
+import styles from './About.module.css';
 import img from '../../assets/historia.jpg'
 
-export default function AboutMe(){
+export default function About(){
     return(
         <TemplatePost 
             coverPhoto={<></>}
