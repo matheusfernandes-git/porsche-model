@@ -18,23 +18,10 @@
     width: 50px;                                                                            
 }
 
-.burguer__menu{
-    height: 100%;
-    width: 4em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
-    color: green;
-    background-color: gray;
-}
-
-.burguer-bar{
-    width: 100px;
-    height: 0.5em;
-    background-color: red;
-    border-radius: 0.5em;
+.container__burger{
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
 }
 
 @media (max-width: 770px) {

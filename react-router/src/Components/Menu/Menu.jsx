@@ -1,17 +1,11 @@
 import styles from "./Menu.module.css";
 import MenuLink from "../MenuLink/MenuLink";
 import porsche from "../../assets/simbolo.png";
-import { FaBars } from "react-icons/fa";
-import SideBar from '../SideBar/SideBar'
-import { FaTimes } from "react-icons/fa";
+import Hamburger from 'hamburger-react';
 import { useState } from "react";
 
 export default function Menu() {
-  const [sideBar, setSideBar] = useState(false);
-
-  const showSideBar = () => {
-    setSideBar(!sideBar);
-  }
+  const [isOpen, setOpen] = useState(false); 
 
   return (
     <header>
@@ -26,11 +20,15 @@ export default function Menu() {
           <MenuLink to="/sobre">About</MenuLink>
         </div>
 
-        <div>
-          <FaBars onClick={showSideBar} />
-          {sideBar && <SideBar active={setSideBar} />}
+        <div className={styles.container__burger}>
+          <Hamburger size={25} onToggle={toogle => {
+            if(toogle){
+              
+            }else{
+              console.log('closed')
+            }
+          }}></Hamburger>
         </div>
-
       </nav>
     </header>
   );
