@@ -23,11 +23,12 @@ export default function Menu() {
         <div className={styles.container__burger}>
           <Hamburger size={25} onToggle={toogle => {
             if(toogle){
-              
+
             }else{
               console.log('closed')
             }
-          }}></Hamburger>
+          }}>
+          </Hamburger>
         </div>
       </nav>
     </header>
