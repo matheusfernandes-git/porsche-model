@@ -5,8 +5,23 @@ import Hamburger from 'hamburger-react';
 import { useState } from "react";
 
 export default function Menu() {
-  const [isOpen, setOpen] = useState(false); 
 
+  // const links = [{
+  //   title: Home,
+  //   to: '/'
+  // },{
+  //   title: Models,
+  //   to: '/models'
+  // },{
+  //   title: About,
+  //   to: '/sobre'
+  // }]
+
+  const [isOpen, setOpen] = useState(false); 
+  const showBurger = () => {
+    console.log('teste')
+    setOpen(!isOpen);
+  }
   return (
     <header>
       <nav className={styles.navegation}>
@@ -21,13 +36,7 @@ export default function Menu() {
         </div>
 
         <div className={styles.container__burger}>
-          <Hamburger size={25} onToggle={toogle => {
-            if(toogle){
-
-            }else{
-              console.log('closed')
-            }
-          }}>
+          <Hamburger size={25} onToggle={showBurger}>
           </Hamburger>
         </div>
       </nav>
