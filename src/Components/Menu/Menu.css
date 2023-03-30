@@ -1,10 +1,10 @@
-@media (max-width: 770px) {
+@media (max-width: 767px) {
 
     .menu-bars {
         color: #000;
         float: right;
         font-size: 1.6rem;
-        margin-top: -65px;
+        margin-top: -60px;
         margin-right: 20px;
         background: none;
     }
@@ -14,7 +14,7 @@
         font-size: 1.6em;
         float: right;
         margin-right: 5%;
-        margin-top: -45px;
+        margin-top: -43px;
     }
 
     .menu-bars-closed:hover{
@@ -92,19 +92,20 @@
     }
 
     .div_img img{
-        width: 50px;                                                                            
+        width: 45px;                                                                            
     }
 } 
 
 
-@media (min-width: 770px){
+@media (min-width: 768px){
+
     .div_img{
         margin: 15px;
         margin-left: 50px;
     }
 
     .div_img img{
-        width: 55px;                                                                          
+        width: 50px;                                                                        
     }
 
     .menu-bars{
