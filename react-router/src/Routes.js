@@ -6,12 +6,10 @@ import Footer from "./Components/Footer/Footer";
 import DeafultPage from "./Components/DefaultPage/DefaultPage";
 import Post from "./pagess/Post/Post";
 import Error404 from "./pagess/Error404/Error404";
-import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 
 export default function AppRoutes() {
   return (
     <BrowserRouter>
-    <ScrollToTop/>
       <Menu/>   
 
       <Routes>

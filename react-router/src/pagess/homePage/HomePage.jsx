@@ -5,10 +5,11 @@ import Highlights from "../../Components/highlights/Highlight";
 
 export default function HomePage() {
   return (
-    <><div className={styles.models__title}>
-      <h1>Models</h1>
-    </div>
-    <ul className={styles.posts}>
+    <>
+      <div className={styles.models__title}>
+        <h1>Models</h1>
+      </div>
+      <ul className={styles.posts}>
         {posts.map((post) => {
           return (
             <li key={post.id}>
@@ -17,7 +18,9 @@ export default function HomePage() {
           );
         })}
       </ul>
-      <div className={styles.container_hl}><Highlights/></div>
-      </>
+      <div className={styles.container_hl}>
+        <Highlights />
+      </div>
+    </>
   );
 }
