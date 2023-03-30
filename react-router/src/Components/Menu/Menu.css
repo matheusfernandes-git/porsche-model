@@ -87,7 +87,8 @@
     }
 
     .div_img{
-        margin: 10px;
+        margin: 15px;
+        margin-left: 30px;
     }
 
     .div_img img{
@@ -96,24 +97,15 @@
 } 
 
 
-.div__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 3rem;
-    margin-top: -60px;
-}
-
-.div_img{
-    margin: 15px;
-    margin-left: 50px;
-}
-
-.div_img img{
-    width: 55px;
-}
-
 @media (min-width: 770px){
+    .div_img{
+        margin: 15px;
+        margin-left: 50px;
+    }
+
+    .div_img img{
+        width: 55px;                                                                          
+    }
 
     .menu-bars{
         display: none;
@@ -141,7 +133,7 @@
         display: inline;
         text-decoration: none;
         color: #000;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .nav_text a{
