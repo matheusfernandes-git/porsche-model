@@ -1,6 +1,5 @@
 import { Links } from "../MenuLink/Links";
 import css from "./Menu.css";
-import Hamburger from 'hamburger-react';
 import porsche from "../../assets/simbolo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
