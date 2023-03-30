@@ -14,7 +14,7 @@
         font-size: 1.6em;
         float: right;
         margin-right: 3%;
-        margin-top: -25px;
+        margin-top: -55px;
     }
 
     .menu-bars-closed:hover{
@@ -142,7 +142,6 @@
         text-decoration: none;
         color: #000;
         font-size: 17px;
-        font-family:'Roboto', sans-serif;
     }
 
     .nav_text a{

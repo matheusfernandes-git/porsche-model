@@ -1,5 +1,5 @@
 import styles from "./Banner.module.css";
-import img from "../../assets/carousel-extra.png";
+import img from "../../assets/teste2.png";
 
 export default function Banner() {
   return (
