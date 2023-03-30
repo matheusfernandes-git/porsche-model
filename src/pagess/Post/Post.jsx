@@ -34,7 +34,7 @@ export default function Post(){
                 >
                     <div className="post-markdown-container">
                         <ReactMarkdown>
-                            {post.texto}
+                           {post.texto}
                         </ReactMarkdown>   
                     </div>
 
