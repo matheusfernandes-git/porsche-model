@@ -19,13 +19,13 @@
 
 @media (max-width: 1100px) {
     .posts {
-        margin-top: 0px;
         padding: 2rem 1.5rem 3.625rem;
     }
 }
 
 @media (max-width: 744px) {
     .posts {
+        width: 100%;
         padding: 2rem 1rem 3rem;
     }
 }
