@@ -1,6 +1,7 @@
 import styles from "./HomePage.module.css";
 import posts from "../../json/posts.json";
 import PostCard from "../../Components/PostCard/PostCard";
+import Highlights from "../../Components/highlights/Highlight";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
           );
         })}
       </ul>
+      <div className={styles.container_hl}><Highlights/></div>
       </>
   );
 }

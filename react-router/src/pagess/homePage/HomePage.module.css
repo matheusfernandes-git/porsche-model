@@ -13,6 +13,10 @@
     margin-top: 25px;
 }
 
+.container_hl{
+    margin-bottom: 50px;
+}
+
 @media (max-width: 1100px) {
     .posts {
         margin-top: 0px;

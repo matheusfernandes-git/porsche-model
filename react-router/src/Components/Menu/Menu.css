@@ -3,56 +3,74 @@
     .menu-bars {
         color: #000;
         float: right;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         margin-top: -65px;
         margin-right: 20px;
         background: none;
     }
 
+    .menu-bars-closed{
+        color: #fff;
+        font-size: 1.6em;
+        float: right;
+        margin-right: 3%;
+        margin-top: -25px;
+    }
+
+    .menu-bars-closed:hover{
+        color: #fff;
+    }
+
     .nav_menu{
         display: flex;
-        background-color: gray;
+        background-color: #191F22;
+        z-index: 1000;
         justify-content: center;
+        flex-direction: column;
         position: fixed ; 
+        width: 100%;
         top: 0;
-        height: 20vh;
+        height: 35vh;
         left: 100%;
         transition: 850ms;
     }
 
     .nav_menu.active {
-        width: 250px;
-        left: 70%;
+        left: 0%;
         transition: 350ms;
     }
 
     .nav_text {
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        padding: 8px 0px 8px 16px;
+        margin: 20px;
+        text-align: center;
         list-style: none;
-        height: 60px;
+        height: 50px;
     }
 
-    .nav_text a {
+    .nav_text a{
+        color: #fff;
         text-decoration: none;
+        position: relative;
+    }
+
+    .nav_text a::after{
+        content: '';
+        width: 0%;
+        height: 1px;
+        background-color: #fff;
         color: #000;
-        font-size: 18px;
-        width: 95%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        padding: 0 16px;
-        border-radius: 4px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav_text a:hover::after{
+        width: 100%;
     }
 
     .nav_text a:hover{
-        color: red;
-    }
-
-    .nav_menu_itens{
-        width: 100%;
+        color: #fff;
     }
 
     .navbar_toogle{
@@ -69,7 +87,7 @@
     }
 
     .div_img{
-        margin: 20px;
+        margin: 10px;
     }
 
     .div_img img{
@@ -98,6 +116,10 @@
 @media (min-width: 770px){
 
     .menu-bars{
+        display: none;
+    }
+
+    .menu-bars-closed{
         display: none;
     }
 

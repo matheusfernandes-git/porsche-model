@@ -1,5 +1,5 @@
 import { Links } from "../MenuLink/Links";
-import css from "./Menu.css";
+import "./Menu.css";
 import porsche from "../../assets/simbolo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -26,7 +26,7 @@ export default function Menu() {
         <nav className={isOpen ? "nav_menu active" : "nav_menu"}>
           <ul className="nav_menu_itens" onClick={showBurger}>
             <li className="navbar_toggle">
-              <Link to="#" className="menu-bars">
+              <Link to="#" className="menu-bars-closed">
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
@@ -41,5 +41,5 @@ export default function Menu() {
         </nav>
       </IconContext.Provider>
     </header>
-  );
+  );
 }
