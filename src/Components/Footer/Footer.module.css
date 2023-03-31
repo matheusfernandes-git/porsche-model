@@ -1,12 +1,19 @@
+
+
 .footer {
     background-color: var(--light-black);
-    color: var(--preto);
     padding: 2rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer .img{
-    width: 10%;
+.footer img{
+    width: 8%;
+}
+
+@media (max-width: 800px){
+    .footer img{
+        width: 15%;
+    }
 }
