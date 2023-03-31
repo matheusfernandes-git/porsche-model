@@ -27,12 +27,11 @@ export default function Post() {
 
   return (
     <Routes>
-      <Route path="*" element={<DeafultPage />}>
         <Route
           index
           element={
             <TemplatePost
-              coverPhoto={`/assets/posts/${post.id}/capa.png`}
+              src={`/assets/posts/${post.id}/banner.png`}
               title={post.titulo}
             >
               <div className="post-markdown-container">
@@ -53,7 +52,6 @@ export default function Post() {
             </TemplatePost>
           }
         />
-      </Route>
     </Routes>
   );
 }

@@ -1,22 +1,17 @@
-import styles from './TemplatePost.module.css';
+import Banner from "../Banner/Banner";
+import styles from "./TemplatePost.module.css";
 
-export default function TemplatePost({ coverPhoto, title, children }){
-    return(
-        <article className={styles.templatePostContainer}>
-            <div 
-                className={styles.coverPhoto}
-                style={ { backgroudImage: `url(${coverPhoto})`}}>
+export default function TemplatePost({ src, title, children }) {
+  return (
+    <article className={styles.templatePostContainer}>
+      <Banner      
+        src={ src }                             
+        className={styles.coverPhoto}
+      ></Banner>
 
-            </div>
+      <h2 className={styles.title}>{title}</h2>
 
-            <h2 className={styles.title}>
-                {title}
-            </h2>
-
-            <div className={styles.contentPostContainer}>
-                {children}
-            </div>
-
-        </article>
-    )
+      <div className={styles.contentPostContainer}>{children}</div>
+    </article>
+  );
 }
