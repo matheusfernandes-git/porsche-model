@@ -1,11 +1,11 @@
-@media (max-width: 767px) {
+@media (max-width: 1300px) {
 
     .menu-bars {
-        color: #000;
+        color: #0000008e;
         float: right;
         font-size: 1.6rem;
-        margin-top: -60px;
-        margin-right: 20px;
+        margin-top: -66px;
+        margin-right: 5%;
         background: none;
     }
 
@@ -13,7 +13,7 @@
         color: #fff;
         font-size: 1.6em;
         float: right;
-        margin-right: 5%;
+        margin-right: 4%;
         margin-top: -43px;
     }
 
@@ -87,25 +87,29 @@
     }
 
     .div_img{
-        margin: 15px;
         margin-left: 30px;
     }
 
     .div_img img{
-        width: 45px;                                                                            
+        margin-top: -10px;
+        margin-bottom: -10px;
+        width: 110px;                      
     }
 } 
 
 
-@media (min-width: 768px){
-
+@media (min-width: 1300px){
+    
     .div_img{
-        margin: 15px;
-        margin-left: 50px;
+        margin-left: 10%;
+        position: relative;
+        margin-top: -5px;
     }
 
     .div_img img{
-        width: 50px;                                                                        
+        width: 140px;
+        padding-bottom: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.103)
     }
 
     .menu-bars{
@@ -122,12 +126,12 @@
         align-items: center;
         column-gap: 3rem;
         margin-top: -60px;
-        height: 6vh;
+        height: 3vh;
     }
 
     .nav_menu_itens{
-        margin-top: -10px;
-        margin-right: 30%;
+        margin-top: -70px;
+        margin-right: 20%;
     }
 
     .nav_text {
