@@ -6,7 +6,6 @@ import posts from "../../json/posts.json";
 import ReactMarkdown from "react-markdown";
 import "./Post.css";
 import Error404 from "../Error404/Error404";
-import DeafultPage from "../../Components/DefaultPage/DefaultPage";
 import PostCard from "../../Components/PostCard/PostCard";
 
 export default function Post() {
@@ -23,7 +22,7 @@ export default function Post() {
   const recommendedPosts = posts
     .filter((post) => post.id !== Number(params.id))
     .sort((a, b) => b.id - a.id) //Ordenando o post em ordem decrescente.
-    .slice(0, 4); //Pegando somente 4 posts.
+    .slice(0, 5); //Pegando somente 5 posts.
 
   return (
     <Routes>

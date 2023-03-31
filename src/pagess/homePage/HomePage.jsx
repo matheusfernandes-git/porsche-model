@@ -18,7 +18,7 @@ export default function HomePage() {
           );
         })}
       </ul>
-      <div className={styles.container_hl}>
+      <div className={styles.container_carousel}>
         <Highlights />
       </div>
     </>

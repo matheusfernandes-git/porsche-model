@@ -13,7 +13,7 @@ export default function AppRoutes() {
     <BrowserRouter>
     <ScrollToTop/>
       <Menu/>   
-      <Routes>
+        <Routes>
           <Route path='/' element={<DeafultPage/>}>
             <Route index element={<HomePage/>}/>
             <Route path="/sobre" element={<About/>}/>
@@ -21,7 +21,7 @@ export default function AppRoutes() {
 
           <Route path="posts/:id*" element={<Post/>}/>
           <Route path="*" element={<Error404/>}></Route>
-      </Routes>
+        </Routes>
 
       <Footer/> 
     </BrowserRouter>

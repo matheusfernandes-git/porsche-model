@@ -1,9 +1,8 @@
 import styles from './Error404.module.css';
 import MainButton from '../../Components/MainButton/MainButton';
 import { useNavigate } from 'react-router-dom';
-import img from '../../assets/simbolo.png'
 
-export default function Error404({ color }){
+export default function Error404(){
     const navigation = useNavigate();
 
     return(
