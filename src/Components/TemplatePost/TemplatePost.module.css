@@ -1,21 +1,10 @@
 .templatePostContainer {
     color: var(--cor-fonte-post);
-    position: relative;
 }
 
-.coverPhoto,
+
 .title {
     height: 204px;
-}
-
-.coverPhoto {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
-    z-index: -1;
 }
 
 .title {
@@ -38,7 +27,6 @@
 
 @media (max-width: 744px) {
 
-    .coverPhoto,
     .title {
         height: 104px;
     }
