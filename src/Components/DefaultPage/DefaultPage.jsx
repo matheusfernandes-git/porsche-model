@@ -4,9 +4,9 @@ import img from '../../assets/bannerHome.png'
 
 export default function DeafultPage(){
     return(
-        <main>
+        <div>
             <Banner src={img}/>
             <Outlet />
-        </main>
+        </div>
     )
 }

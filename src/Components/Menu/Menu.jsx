@@ -13,7 +13,9 @@ export default function Menu() {
   return (
     <header>
       <div className="div_img">
-        <Link to='/' alt="home" ><img src={logo} alt="logo" /></Link>
+        <Link to="/" alt="home">
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       <div className="nav_bar">
         <Link to="#" className="menu-bars">
