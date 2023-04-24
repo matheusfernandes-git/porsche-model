@@ -128,7 +128,7 @@
         margin-right: 4%;
         margin-top: -43px;
     }
-
+                                  
     .menu-bars-closed:hover{
         color: #fff;
     }
@@ -198,14 +198,11 @@
         color: #000;
     }
 
-    .div_img{
-        margin-left: 5%;
-    }
-
     .div_img img{
         margin-top: -10px;
         margin-bottom: -10px;
-        width: 100px;               
+        width: 100px;     
+        margin-left: 5%;          
     }
 } 
 
