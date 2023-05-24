@@ -9,6 +9,16 @@
     .div_img img{
         border: 1px solid rgba(0, 0, 0, 0.103)       
     }
+    .nav_menu{
+        height: 100%;
+    }
+    .menu-bars-closed{
+        position: absolute;
+        top: 0;
+        left: 90%;
+        margin-top: 30px;
+        color: #fff;
+    }
 
 @media (min-width: 1000px) and (max-width: 1300px){
 
@@ -17,16 +27,12 @@
         float: right;
         font-size: 1.7em;
         margin-top: -73px;
-        margin-right: 5%;
+        margin-right: 6%;
         background: none;
     }
 
     .menu-bars-closed{
-        color: #fff;
-        font-size: 1.6em;
-        float: right;
-        margin-right: 4%;
-        margin-top: -43px;
+        font-size: 1.8em;
     }
 
     .menu-bars-closed:hover{
@@ -42,7 +48,6 @@
         position: fixed ; 
         width: 100%;
         top: 0;
-        height: 37vh;
         left: 100%;
         transition: 850ms;
     }
@@ -53,7 +58,8 @@
     }
 
     .nav_text {
-        margin: 20px;
+        font-size: 18px;
+        margin: 40px;
         text-align: center;
         list-style: none;
         height: 50px;
@@ -116,18 +122,14 @@
     .menu-bars {
         color: #0000008e;
         float: right;
-        font-size: 1.4rem;
-        margin-top: -58px;
+        font-size: 1.7rem;
+        margin-top: -62px;
         margin-right: 5%;
         background: none;
     }
 
     .menu-bars-closed{
-        color: #fff;
-        font-size: 1.6em;
-        float: right;
-        margin-right: 4%;
-        margin-top: -43px;
+        font-size: 1.7em;
     }
                                   
     .menu-bars-closed:hover{
@@ -143,7 +145,6 @@
         position: fixed ; 
         width: 100%;
         top: 0;
-        height: 37vh;
         left: 100%;
         transition: 850ms;
     }
@@ -154,7 +155,8 @@
     }
 
     .nav_text {
-        margin: 20px;
+        font-size: 18px;
+        margin: 40px;
         text-align: center;
         list-style: none;
         height: 50px;
